@@ -8,7 +8,8 @@ import java.io.Serializable;
 
 @Entity
 @Table(name = "CHILD")
-public class Child implements Cloneable,Serializable {
+public class Child implements Cloneable, Serializable {
+
 
     public String getId() {
         return id;
