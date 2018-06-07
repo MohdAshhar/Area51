@@ -18,6 +18,7 @@ public class Parent {
     private String state;
     private String country;
     private String phone;
+    private String password;
 
     public Parent() {
 
@@ -33,6 +34,7 @@ public class Parent {
         this.phone = phone;
     }
 
+    public void setPassword(String password) { this.password = password;  }
     public int getId() {
         return id;
     }
